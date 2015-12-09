@@ -1,0 +1,32 @@
+### Node ###
+log/
+logs/
+node_modules/
+*.bak
+*.log
+
+# Node.js/npm Runtime data
+lib-cov
+*.seed
+*.out
+*.pid
+npm-debug.log*
+lib-cov
+pids
+.node_history
+.node_repl_history
+.npm
+
+# Directories and tools of different tools
+coverage
+.lock-wscript
+.grunt
+
+### IDEs & OS stuff
+*~
+*#
+.DS_STORE
+.netbeans
+nbproject
+.idea
+.node_history
