@@ -1,7 +1,7 @@
 {
   "name": "scout-http-cache",
   "version": "1.0.0",
-  "description": "HTTP client caching layer",
+  "description": "Node.js HTTP client caching layer module",
   "main": "lib/index",
   "scripts": {
     "test": "npm test"
