@@ -1,0 +1,20 @@
+{
+  "name": "scout-http-cache",
+  "version": "1.0.0",
+  "description": "HTTP client caching layer",
+  "main": "lib/index",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "cache",
+    "http",
+    "catbox",
+    "hapi",
+    "hapijs"
+  ],
+  "author": "Tomislav Capan <tomislav.capan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
