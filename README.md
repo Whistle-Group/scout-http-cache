@@ -9,3 +9,8 @@ caching strategy adapter for Redis, and is HTTP client agnostic, supporting
 [Request](https://github.com/request/request) and [Wreck](https://github.com/hapijs/wreck)
 clients, but also any other which is using the same request and response
 signatures.
+
+
+### Releases
+
+See [History](HISTORY.md).
