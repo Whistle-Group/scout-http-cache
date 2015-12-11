@@ -23,6 +23,7 @@ cacheReady.then(function () {
         httpClient  : wreck,
         httpOptions : httpOptions,
         cacheOptions: cacheOptions,
+        skipCache   : false,
       };
 
       httpCache.request(options, function (err, body) {
@@ -38,6 +39,7 @@ cacheReady.then(function () {
         httpClient  : wreck,
         httpOptions : httpOptions,
         cacheOptions: cacheOptions,
+        skipCache   : true,
       };
 
       httpCache.request(options, function (err, body) {
