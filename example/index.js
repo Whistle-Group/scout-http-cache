@@ -26,7 +26,7 @@ cacheReady.then(function () {
       };
 
       httpCache.request(options, function (err, body) {
-        if (err) { console.log('POST ERROR:', err); }
+        if (err) { console.log('POST ERROR:', err.message); }
         console.log(body);
         resolve();
       });
@@ -41,7 +41,7 @@ cacheReady.then(function () {
       };
 
       httpCache.request(options, function (err, body) {
-        if (err) { console.log('GET ERROR:', err); }
+        if (err) { console.log('GET ERROR:', err.message); }
         console.log(body);
         resolve();
       });
